@@ -92,7 +92,7 @@ body {
 .section {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .subsection {
@@ -129,7 +129,7 @@ body {
 .aside {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
     width: 16.5rem;
 }
 .contacts__email {
@@ -144,6 +144,19 @@ body {
 }
 
 .education__date {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.experience__title {
+    font-weight: 600;
+}
+.experience__date {
     font-size: 0.8rem;
     font-weight: 500;
 }
